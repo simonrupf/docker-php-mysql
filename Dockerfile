@@ -1,4 +1,4 @@
-FROM simonrupf/php:0.1.6
+FROM simonrupf/php:0.1.8
 USER 0:0
 RUN apk add --no-cache php7-pdo_mysql
 # user nginx, group www-data
