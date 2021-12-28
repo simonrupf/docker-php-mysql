@@ -1,4 +1,9 @@
-# PHP change log
+# PHP with MySQL support change log
+
+## 0.3.0
+
+update to Alpine 3.15 / php 8.0.14 / nginx 1.20.2 / s6 2.11.0.0
+switching from s6-overlay to s6-svscan for service management
 
 ## 0.2.1
 
