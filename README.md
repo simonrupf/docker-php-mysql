@@ -1,7 +1,6 @@
 # PHP with MySQL support
 
-Stack of nginx web and PHP fpm servers for running PHP web applications with
-MySQL support.
+Nginx Unit application server for running PHP web applications with MySQL support.
 
 See also the [base image](https://hub.docker.com/r/simonrupf/php/dockerfile).
 
@@ -28,7 +27,8 @@ files that should not be directly accessible for security reasons.
 - `/run`: PID files and sockets
 - `/tmp`: temporary data of PHP (i.e. sessions) and supervisord
 - `/var/tmp/nginx`: temporary data of nginx (i.e. uploads, large responses)
-- `/var/www/public` or `/var/www`: contents of your PHP application - owner 100, group 82, mode 0750
+- `/var/www/public` or `/var/www`: contents of your PHP application - owner 100,
+  group 82, mode 0750
 
 ## Network ports
 
