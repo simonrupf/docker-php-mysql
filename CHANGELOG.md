@@ -1,5 +1,9 @@
 # PHP with MySQL support change log
 
+## 0.5.4
+
+fix nginx unit configuration: load php 8.3 default config, disable asserts
+
 ## 0.5.3
 
 update to Alpine 3.20 / php 8.3.7
@@ -74,4 +78,3 @@ allow for read-only root and correcting logging
 ## 0.1.0
 
 extend base PHP image with MySQL support
-
