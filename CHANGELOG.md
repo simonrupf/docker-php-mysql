@@ -1,5 +1,9 @@
 # PHP with MySQL support change log
 
+## 0.5.6
+
+update to Alpine 3.22 / php 8.4.8
+
 ## 0.5.5
 
 update to Alpine 3.21 / php 8.3.14
