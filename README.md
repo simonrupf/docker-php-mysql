@@ -1,6 +1,6 @@
 # PHP with MySQL support
 
-Nginx Unit application server for running PHP web applications with MySQL support.
+FreeUnit application server for running PHP web applications with MySQL support.
 
 See also the [base image](https://hub.docker.com/r/simonrupf/php/dockerfile).
 
@@ -26,7 +26,7 @@ files that should not be directly accessible for security reasons.
 
 - `/run`: PID files and sockets
 - `/tmp`: temporary data of PHP (i.e. sessions)
-- `/var/lib/unit`: temporary data of nginx unit (i.e. uploads, large responses)
+- `/var/lib/unit`: temporary data of FreeUnit (i.e. uploads, large responses)
 - `/var/www/public` or `/var/www`: contents of your PHP application - owner 100,
   group 82, mode 0750
 

@@ -1,5 +1,11 @@
 # PHP with MySQL support change log
 
+## 0.6.0
+
+switching from unmaintained nginx unit to FreeUnit community fork
+
+update to Alpine 3.24 / php 8.5.8
+
 ## 0.5.7
 
 update to Alpine 3.23 / php 8.5.0
