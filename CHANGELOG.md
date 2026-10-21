@@ -1,5 +1,9 @@
 # PHP with MySQL support change log
 
+## 0.6.1
+
+update to php 8.5.12
+
 ## 0.6.0
 
 switching from unmaintained nginx unit to FreeUnit community fork
